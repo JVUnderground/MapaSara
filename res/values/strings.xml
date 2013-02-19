@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mapa Sara</string>
+    <string name="menu_settings">Settings</string>
+    <string name="locate_name">Escolha seu mapa</string>
+    <string name="title_activity_locate">Atualização de local</string>
+    <string name="lat">\tLatitude: </string>
+    <string name="longi">\tLongitude: </string>
+    <string name="submitLoc">Abrir mapa</string>
+    <string name="useGPS">Carregar do GPS</string>
+    <string name="volume">Volume estimado (L)</string>
+    <string name="submitSim">Requisitar simulação</string>
+    <string name="mapa_d">\tMapa:</string>
+    <string name="shipname">\tEmbarcação:</string>
+
+    <string-array name="maps_array">
+        <item>Baia de Guanabara</item>
+        <item>Baia de Sepetiba</item>
+    </string-array>
+
+    <string name="title_activity_simulation">Envio de simulação</string>
+
+</resources>

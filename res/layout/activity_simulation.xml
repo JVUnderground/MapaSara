@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SimulationActivity" >
+	
+	<View
+  		android:layout_width="1dp"
+  		android:layout_height="30dp">
+	</View>
+	
+	<TextView
+	        android:id="@+id/volume_form"
+	        style="@style/TextFont"
+	        android:layout_width="wrap_content"
+	        android:text = "@string/volume"
+	        android:textStyle ="bold" />
+	
+    <EditText
+        android:id="@+id/volume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/volume"
+        android:textColorHighlight="#fffacd" />
+    
+    <View
+  		android:layout_width="1dp"
+  		android:layout_height="30dp">
+	</View>
+	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+	    <TextView
+	        android:id="@+id/shipname_form"
+	        style="@style/TextFont"
+	        android:layout_width="wrap_content"
+	        android:text = "@string/shipname"
+	        android:textStyle ="bold" />
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="right">
+		    <TextView
+		        android:id ="@+id/shipname"
+		        style="@style/TextFont"
+		        android:layout_width="wrap_content"/>
+		</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+	    <TextView
+	        android:id="@+id/lat_form"
+	        style="@style/TextFont"
+	        android:layout_width="wrap_content"
+	        android:text = "@string/lat"
+	        android:textStyle ="bold" />
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="right">
+		    <TextView
+		        android:id ="@+id/latitude"
+		        style="@style/TextFont"
+		        android:layout_width="wrap_content"/>
+		</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+	    <TextView
+	        android:id="@+id/longi_form"
+	        style="@style/TextFont"
+	        android:layout_width="wrap_content"
+	        android:text = "@string/longi"
+	        android:textStyle ="bold" />
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="right">
+		    <TextView
+		        android:id ="@+id/longitude"
+		        style="@style/TextFont"
+		        android:layout_width="wrap_content"/>
+		</LinearLayout>
+    </LinearLayout>
+    
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+	    <TextView
+	        android:id="@+id/map_form"
+	        style="@style/TextFont"
+	        android:layout_width="wrap_content"
+	        android:text = "@string/mapa_d"
+	        android:textStyle ="bold" />
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="right">
+		    <TextView
+		        android:id ="@+id/map_d"
+		        style="@style/TextFont"
+		        android:layout_width="wrap_content"/>
+		</LinearLayout>
+    </LinearLayout>
+    
+	<View
+  		android:layout_width="1dp"
+  		android:layout_height="30dp">
+	</View>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submitSimulation"
+        android:text="@string/submitSim" />
+    
+
+    
+</LinearLayout>

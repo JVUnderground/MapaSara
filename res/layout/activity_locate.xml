@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+	
+    <View
+  		android:layout_width="1dp"
+  		android:layout_height="30dp">
+	</View>
+    
+    <TextView
+        style="@style/TextFont"
+        android:text="@string/locate_name"
+        android:gravity="center" />
+	
+    <View
+  		android:layout_width="1dp"
+  		android:layout_height="30dp">
+	</View>
+    
+	<Spinner
+    android:id="@+id/maps_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+	
+	<View
+  		android:layout_width="1dp"
+  		android:layout_height="30dp">
+	</View>
+	
+	<Button
+        style="@style/TextFont"
+        android:onClick="submitLocation"
+        android:text="@string/submitLoc"
+        android:textColor ="#000000" 
+        android:gravity="center" />
+
+    
+</LinearLayout>
